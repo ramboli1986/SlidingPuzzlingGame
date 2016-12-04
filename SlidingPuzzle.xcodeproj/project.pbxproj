@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDCBCC5D1DC392FD00F85520 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCBCC5C1DC392FD00F85520 /* main.m */; };
+		FDCBCC661DC392FD00F85520 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDCBCC641DC392FD00F85520 /* Main.storyboard */; };
+		FDCBCC681DC392FD00F85520 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDCBCC671DC392FD00F85520 /* Assets.xcassets */; };
+		FDCBCC6B1DC392FD00F85520 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDCBCC691DC392FD00F85520 /* LaunchScreen.storyboard */; };
+		FDCBCC7B1DC3937400F85520 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCBCC791DC3937400F85520 /* AppDelegate.m */; };
+		FDCBCC821DC3959900F85520 /* YHHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCBCC811DC3959900F85520 /* YHHomeViewController.m */; };
+		FDCBCC8A1DC3983100F85520 /* YHNumView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCBCC891DC3983100F85520 /* YHNumView.m */; };
+		FDCBCC971DC3A81E00F85520 /* NSMutableArray+Shuffle.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCBCC961DC3A81E00F85520 /* NSMutableArray+Shuffle.m */; };
+		FDCBCC9B1DC4DD3C00F85520 /* YHGameTools.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCBCC9A1DC4DD3C00F85520 /* YHGameTools.m */; };
+		FDCBCCA11DC4E31900F85520 /* YHGameInitTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCBCCA01DC4E31900F85520 /* YHGameInitTool.m */; };
+		FDCBCCA41DC4F2B600F85520 /* YHGameParams.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCBCCA31DC4F2B600F85520 /* YHGameParams.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FDCBCC581DC392FD00F85520 /* SlidingPuzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlidingPuzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDCBCC5C1DC392FD00F85520 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDCBCC651DC392FD00F85520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDCBCC671DC392FD00F85520 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDCBCC6A1DC392FD00F85520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDCBCC6C1DC392FD00F85520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDCBCC781DC3937400F85520 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FDCBCC791DC3937400F85520 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FDCBCC801DC3959900F85520 /* YHHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHHomeViewController.h; sourceTree = "<group>"; };
+		FDCBCC811DC3959900F85520 /* YHHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHHomeViewController.m; sourceTree = "<group>"; };
+		FDCBCC881DC3983100F85520 /* YHNumView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHNumView.h; sourceTree = "<group>"; };
+		FDCBCC891DC3983100F85520 /* YHNumView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHNumView.m; sourceTree = "<group>"; };
+		FDCBCC951DC3A81E00F85520 /* NSMutableArray+Shuffle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Shuffle.h"; sourceTree = "<group>"; };
+		FDCBCC961DC3A81E00F85520 /* NSMutableArray+Shuffle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Shuffle.m"; sourceTree = "<group>"; };
+		FDCBCC991DC4DD3C00F85520 /* YHGameTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHGameTools.h; sourceTree = "<group>"; };
+		FDCBCC9A1DC4DD3C00F85520 /* YHGameTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHGameTools.m; sourceTree = "<group>"; };
+		FDCBCC9F1DC4E31900F85520 /* YHGameInitTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHGameInitTool.h; sourceTree = "<group>"; };
+		FDCBCCA01DC4E31900F85520 /* YHGameInitTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHGameInitTool.m; sourceTree = "<group>"; };
+		FDCBCCA21DC4F2B600F85520 /* YHGameParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHGameParams.h; sourceTree = "<group>"; };
+		FDCBCCA31DC4F2B600F85520 /* YHGameParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHGameParams.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDCBCC551DC392FD00F85520 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDCBCC4F1DC392FD00F85520 = {
+			isa = PBXGroup;
+			children = (
+				FDCBCC5A1DC392FD00F85520 /* SlidingPuzzle */,
+				FDCBCC591DC392FD00F85520 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDCBCC591DC392FD00F85520 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDCBCC581DC392FD00F85520 /* SlidingPuzzle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDCBCC5A1DC392FD00F85520 /* SlidingPuzzle */ = {
+			isa = PBXGroup;
+			children = (
+				FDCBCC721DC3937400F85520 /* Class */,
+				FDCBCC5B1DC392FD00F85520 /* Supporting Files */,
+			);
+			path = SlidingPuzzle;
+			sourceTree = "<group>";
+		};
+		FDCBCC5B1DC392FD00F85520 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDCBCC671DC392FD00F85520 /* Assets.xcassets */,
+				FDCBCC691DC392FD00F85520 /* LaunchScreen.storyboard */,
+				FDCBCC6C1DC392FD00F85520 /* Info.plist */,
+				FDCBCC5C1DC392FD00F85520 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDCBCC721DC3937400F85520 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				FDCBCC981DC4DCF500F85520 /* Tools */,
+				FDCBCC941DC3A80200F85520 /* Category */,
+				FDCBCC731DC3937400F85520 /* Home */,
+				FDCBCC771DC3937400F85520 /* Other */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		FDCBCC731DC3937400F85520 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FDCBCC741DC3937400F85520 /* Controller */,
+				FDCBCC751DC3937400F85520 /* Model */,
+				FDCBCC761DC3937400F85520 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FDCBCC741DC3937400F85520 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FDCBCC801DC3959900F85520 /* YHHomeViewController.h */,
+				FDCBCC811DC3959900F85520 /* YHHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FDCBCC751DC3937400F85520 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FDCBCCA21DC4F2B600F85520 /* YHGameParams.h */,
+				FDCBCCA31DC4F2B600F85520 /* YHGameParams.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FDCBCC761DC3937400F85520 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FDCBCC881DC3983100F85520 /* YHNumView.h */,
+				FDCBCC891DC3983100F85520 /* YHNumView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FDCBCC771DC3937400F85520 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				FDCBCC641DC392FD00F85520 /* Main.storyboard */,
+				FDCBCC781DC3937400F85520 /* AppDelegate.h */,
+				FDCBCC791DC3937400F85520 /* AppDelegate.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		FDCBCC941DC3A80200F85520 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				FDCBCC951DC3A81E00F85520 /* NSMutableArray+Shuffle.h */,
+				FDCBCC961DC3A81E00F85520 /* NSMutableArray+Shuffle.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		FDCBCC981DC4DCF500F85520 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				FDCBCC991DC4DD3C00F85520 /* YHGameTools.h */,
+				FDCBCC9A1DC4DD3C00F85520 /* YHGameTools.m */,
+				FDCBCC9F1DC4E31900F85520 /* YHGameInitTool.h */,
+				FDCBCCA01DC4E31900F85520 /* YHGameInitTool.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDCBCC571DC392FD00F85520 /* SlidingPuzzle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDCBCC6F1DC392FD00F85520 /* Build configuration list for PBXNativeTarget "SlidingPuzzle" */;
+			buildPhases = (
+				FDCBCC541DC392FD00F85520 /* Sources */,
+				FDCBCC551DC392FD00F85520 /* Frameworks */,
+				FDCBCC561DC392FD00F85520 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlidingPuzzle;
+			productName = SlidingPuzzle;
+			productReference = FDCBCC581DC392FD00F85520 /* SlidingPuzzle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDCBCC501DC392FD00F85520 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YH;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "bo LI";
+				TargetAttributes = {
+					FDCBCC571DC392FD00F85520 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FDCBCC531DC392FD00F85520 /* Build configuration list for PBXProject "SlidingPuzzle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDCBCC4F1DC392FD00F85520;
+			productRefGroup = FDCBCC591DC392FD00F85520 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDCBCC571DC392FD00F85520 /* SlidingPuzzle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDCBCC561DC392FD00F85520 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDCBCC6B1DC392FD00F85520 /* LaunchScreen.storyboard in Resources */,
+				FDCBCC681DC392FD00F85520 /* Assets.xcassets in Resources */,
+				FDCBCC661DC392FD00F85520 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDCBCC541DC392FD00F85520 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDCBCCA41DC4F2B600F85520 /* YHGameParams.m in Sources */,
+				FDCBCC9B1DC4DD3C00F85520 /* YHGameTools.m in Sources */,
+				FDCBCC7B1DC3937400F85520 /* AppDelegate.m in Sources */,
+				FDCBCCA11DC4E31900F85520 /* YHGameInitTool.m in Sources */,
+				FDCBCC971DC3A81E00F85520 /* NSMutableArray+Shuffle.m in Sources */,
+				FDCBCC821DC3959900F85520 /* YHHomeViewController.m in Sources */,
+				FDCBCC8A1DC3983100F85520 /* YHNumView.m in Sources */,
+				FDCBCC5D1DC392FD00F85520 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FDCBCC641DC392FD00F85520 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDCBCC651DC392FD00F85520 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FDCBCC691DC392FD00F85520 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDCBCC6A1DC392FD00F85520 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDCBCC6D1DC392FD00F85520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDCBCC6E1DC392FD00F85520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDCBCC701DC392FD00F85520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SlidingPuzzle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shixiaoji.SlidingPuzzle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FDCBCC711DC392FD00F85520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SlidingPuzzle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shixiaoji.SlidingPuzzle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDCBCC531DC392FD00F85520 /* Build configuration list for PBXProject "SlidingPuzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDCBCC6D1DC392FD00F85520 /* Debug */,
+				FDCBCC6E1DC392FD00F85520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDCBCC6F1DC392FD00F85520 /* Build configuration list for PBXNativeTarget "SlidingPuzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDCBCC701DC392FD00F85520 /* Debug */,
+				FDCBCC711DC392FD00F85520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDCBCC501DC392FD00F85520 /* Project object */;
+}
